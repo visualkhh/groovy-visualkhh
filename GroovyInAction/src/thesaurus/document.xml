@@ -1,0 +1,9 @@
+<Document>
+    <Sentence code="S0001" format="Document.Title"/>
+    <Sentence code="S0002" format="Section.Title"/>
+    <Sentence code="S0003" format="Subsection.Title"/>
+    <Sentence code="S0004" format="Sentence"/>
+    <Sentence code="S0005" format="Sentence"/>
+    <Sentence code="S0006" format="Subsection.Title"/>
+    <Sentence code="S0007" format="Sentence"/>
+</Document>

@@ -1,0 +1,35 @@
+<project name="fibonacci-build" default="run">
+
+  <property environment="env"/>
+
+  <!-- #1 -->
+  <path id="groovy.classpath">                     
+    <fileset dir="${env.GROOVY_HOME}/embeddable/"/>
+  </path>
+
+  <!-- #2 -->
+  <taskdef name ="groovyc"                         
+    classname   ="org.codehaus.groovy.ant.Groovyc"
+    classpathref="groovy.classpath"/>
+
+  <!-- #3 -->
+  <target name="compile"                           
+    description="compile groovy to bytecode">
+    <mkdir  dir="classes"/>
+    <groovyc
+      destdir="classes"
+      srcdir="."
+      includes="Fibonacci.groovy"
+      classpathref="groovy.classpath">
+    </groovyc>
+  </target>
+
+  <!-- #4 -->
+  <target name="run" depends="compile"             
+    description="run the compiled class">
+    <java classname="Fibonacci">
+      <classpath refid="groovy.classpath"/>
+      <classpath location="classes"/>
+    </java>
+  </target>
+</project>

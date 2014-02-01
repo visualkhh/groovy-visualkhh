@@ -1,0 +1,336 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <link rel="stylesheet" href="http://codehaus.org/codehaus-style.css" type="text/css">
+        <link rel="stylesheet" href="/style.css" type="text/css">
+
+    <title>Groovy - GPath</title>
+  </head>
+
+  <body>
+    <table width="100%" id="layout" style="padding:0px;margin0px;border-collapse:collapse;">
+      <tr>
+        <td colspan="3" style="padding:8px;">
+          <table width="100%" id="banner" style="padding:0px;margin:0px">
+            <tr id="header_row">
+              <td align="left" valign="middle" style="padding:0px;margin:0px;">
+                <a href="/"><img src="http://groovy.codehaus.org/images/groovy-logo.png" border="0"></a>
+
+              </td>
+              <td align="right" valign="middle" style="padding:0px;margin:0px;">
+                <a href="http://codehaus.org/"><img src="http://codehaus.org/codehaus-small.png" border="0"></a>
+
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" id="breadcrumbs">
+          <table width="100%" id="banner" style="padding:0px;margin:0px">
+            <tr>
+              <td align="left">
+                <a href="/">Home</a>  | GPath
+              </td>
+              <td align="right">
+                  <span id="Content"><span><a href="/Download" title="Download">Download</a> | <span class="nobr"><a href="http://groovy.codehaus.org/apidocs/index.html" rel="nofollow">JavaDoc</a></span> | <span class="nobr"><a href="http://docs.codehaus.org/pages/listpages.action?key=GROOVY" rel="nofollow">Wiki</a></span> | <span class="nobr"><a href="http://groovy.codehaus.org/cvs-usage.html" rel="nofollow">CVS</a></span> | <span class="nobr"><a href="http://groovy.codehaus.org/mail-lists.html" rel="nofollow">Mail Lists</a></span> | <span class="nobr"><a href="irc://irc.codehaus.org/groovy" rel="nofollow">IRC</a></span> | <span class="nobr"><a href="http://servlet.uwyn.com/drone/log/hausbot/groovy" rel="nofollow">IRC Log</a></span> | <span class="nobr"><a href="http://groovy.stats.codehaus.org/" rel="nofollow">Stats</a></span> | <span class="nobr"><a href="http://groovy.codehaus.org/Roadmap" rel="nofollow">Roadmap</a></span> | <span class="nobr"><a href="http://jira.codehaus.org/secure/BrowseProject.jspa?id=10242" rel="nofollow">Issue Tracker</a></span></span></span>
+
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td id="leftColumn" valign="top" style="padding-top: 0px;">
+          <span id="Content"><h3><a name="Navigation-Groovy">Groovy</a></h3>
+  <ul class="alternate" type="square">
+    <li><a href="/Home" title="Home">Home</a></li>
+    <li><a href="/News" title="News">News</a></li>
+    <li><span class="nobr"><a href="/faq.html" rel="nofollow">FAQ</a></span></li>
+    <li><a href="/Quick+Start" title="Quick Start">Quick Start</a></li>
+    <li><a href="/Roadmap" title="Roadmap">Roadmap</a></li>
+    <li><a href="/Wish+List" title="Wish List">Wish List</a></li>
+    <li><a href="/Contributing" title="Contributing">Contributing</a></li>
+  </ul>
+  <h3><a name="Navigation-UsingGroovy">Using Groovy</a></h3>
+  <ul class="alternate" type="square">
+    <li><a href="/Installing+Groovy" title="Installing Groovy">Installing Groovy</a></li>
+    <li><a href="/Beginners+Tutorial" title="Beginners Tutorial">Beginners Tutorial</a></li>
+    <li><a href="/Embedding+Groovy" title="Embedding Groovy">Embedding Groovy</a></li>
+    <li><a href="/Running" title="Running">Running</a></li>
+    <li><a href="/Groovy+CLI" title="Groovy CLI">Command Line</a></li>
+    <li><a href="/Compiling+Groovy" title="Compiling Groovy">Compiling Groovy</a></li>
+    <li><a href="/Unit+Testing" title="Unit Testing">Unit Testing</a></li>
+    <li><a href="/Bean+Scripting+Framework" title="Bean Scripting Framework">Bean Scripting Framework</a></li>
+  </ul>
+  <h3><a name="Navigation-LanguageGuide">Language Guide</a></h3>
+  <ul class="alternate" type="square">
+    <li><a href="/Language+Guide" title="Language Guide">Contents</a></li>
+    <li><span class="nobr"><a href="/groovy-jdk.html" rel="nofollow">Groovy JDK</a></span></li>
+    <li><span class="nobr"><a href="http://groovy.codehaus.org/jsr/spec/" rel="nofollow">Language Specification</a></span></li>
+    <li><span class="nobr"><a href="http://groovy.codehaus.org/download/attachments/2715/groovy-reference-card.pdf" rel="nofollow">Reference Card</a></span></li>
+  </ul>
+  <h3><a name="Navigation-JSR">JSR</a></h3>
+  <ul class="alternate" type="square">
+    <li><span class="nobr"><a href="http://groovy.codehaus.org/jsr/spec/" rel="nofollow">Specification</a></span></li>
+    <li><span class="nobr"><a href="http://groovy.codehaus.org/jsr/spec/grammar/" rel="nofollow">Grammar</a></span></li>
+    <li><span class="nobr"><a href="http://docs.codehaus.org/display/GroovyJSR/TCK" rel="nofollow" title="Visit page outside Confluence">TCK</a></span></li>
+    <li><a href="/Migration+From+Classic+to+JSR+syntax" title="Migration From Classic to JSR syntax">Migrating to JSR</a></li>
+    <li><span class="nobr"><a href="http://docs.codehaus.org/display/GroovyJSR/Home" rel="nofollow" title="Visit page outside Confluence">JSR Wiki</a></span></li>
+    <li><span class="nobr"><a href="http://www.jcp.org/en/jsr/detail?id=241" rel="nofollow">JSR@JCP</a></span></li>
+  </ul>
+  <h3><a name="Navigation-GroovyFeatures">Groovy Features</a></h3>
+  <ul class="alternate" type="square">
+    <li><a href="/GroovyMarkup" title="GroovyMarkup">GroovyMarkup</a></li>
+    <li><a href="/GPath" title="GPath">GPath</a></li>
+    <li><a href="/Groovlets" title="Groovlets">Groovlets</a></li>
+    <li><a href="/Groovy+SQL" title="Groovy SQL">Groovy Sql</a></li>
+    <li><a href="/Groovy+Beans" title="Groovy Beans">Groovy Beans</a></li>
+    <li><a href="/Ant+Scripting" title="Ant Scripting">Ant Scripting</a></li>
+    <li><a href="/Regular+Expressions" title="Regular Expressions">Regex</a></li>
+    <li><a href="/Groovy+Templates" title="Groovy Templates">Templates</a></li>
+    <li><a href="/Security" title="Security">Security</a></li>
+  </ul>
+  <h3><a name="Navigation-Modules">Modules</a></h3>
+  <ul class="alternate" type="square">
+    <li><span class="nobr"><a href="http://grails.codehaus.org" rel="nofollow">Grails</a></span></li>
+    <li><a href="/Gram" title="Gram">Gram</a></li>
+    <li><a href="/COM+Scripting" title="COM Scripting">COM Scripting</a></li>
+    <li><a href="/GroovySWT" title="GroovySWT">GroovySWT</a></li>
+    <li><a href="/GSP" title="GSP">GSP</a></li>
+    <li><a href="/GSQL" title="GSQL">GSQL</a></li>
+    <li><a href="/Process" title="Process">Process</a></li>
+    <li><a href="/XMLRPC" title="XMLRPC">XMLRPC</a></li>
+  </ul>
+  <h3><a name="Navigation-Examples">Examples</a></h3>
+  <ul class="alternate" type="square">
+    <li><span class="nobr"><a href="http://cvs.groovy.codehaus.org/viewrep/groovy/groovy/groovy-core/src/test/groovy/script" rel="nofollow">Scripts</a></span></li>
+    <li><span class="nobr"><a href="http://cvs.groovy.codehaus.org/viewrep/groovy/groovy/groovy-core/src/test/groovy" rel="nofollow">Unit tests</a></span></li>
+    <li><span class="nobr"><a href="http://cvs.groovy.codehaus.org/viewrep/groovy/groovy/groovy-core/src/test/groovy/util/AntTest.groovy?rev=HEAD&amp;View=auto" rel="nofollow">GroovyAnt</a></span></li>
+    <li><span class="nobr"><a href="http://cvs.groovy.codehaus.org/viewrep/groovy/groovy/groovy-core/src/test/groovy/swing" rel="nofollow">GroovySwing</a></span></li>
+    <li><a href="/Make+a+builder" title="Make a builder">Make a builder</a></li>
+  </ul>
+  <h3><a name="Navigation-UsefulLinks">Useful Links</a></h3>
+  <ul class="alternate" type="square">
+    <li><a href="/Articles" title="Articles">Articles</a></li>
+    <li><a href="/Related+Projects" title="Related Projects">Related Projects</a></li>
+  </ul>
+  <h3><a name="Navigation-IDESupport">IDE Support</a></h3>
+  <ul class="alternate" type="square">
+    <li><a href="/Eclipse+Plugin" title="Eclipse Plugin">Eclipse Plugin</a></li>
+    <li><a href="/IntelliJ+IDEA+Plugin" title="IntelliJ IDEA Plugin">IntelliJ IDEA Plugin</a></li>
+    <li><a href="/JEdit+Plugin" title="JEdit Plugin">JEdit Plugin</a></li>
+    <li><a href="/Other+Plugins" title="Other Plugins">Other Plugins</a></li>
+  </ul>
+  <h3><a name="Navigation-Support">Support</a></h3>
+  <ul class="alternate" type="square">
+    <li><span class="nobr"><a href="http://jira.codehaus.org/secure/BrowseProject.jspa?id=10242" rel="nofollow">Issues</a></span></li>
+    <li><span class="nobr"><a href="http://jira.codehaus.org/secure/BrowseProject.jspa?id=10242&amp;report=roadmap" rel="nofollow">Roadmap</a></span></li>
+    <li><span class="nobr"><a href="http://jira.codehaus.org/secure/BrowseProject.jspa?id=10242&amp;report=changelog" rel="nofollow">Change log</a></span></li>
+  </ul>
+  <h3><a name="Navigation-Community">Community</a></h3>
+  <ul class="alternate" type="square">
+    <li><span class="nobr"><a href="http://groovy.codehaus.org/mail-lists.html" rel="nofollow">Mailing Lists</a></span></li>
+    <li><span class="nobr"><a href="http://groovy.codehaus.org/team-list.html" rel="nofollow">Who we are</a></span></li>
+    <li><a href="/Contributing" title="Contributing">Contributing</a></li>
+  </ul>
+  <h3><a name="Navigation-Developers">Developers</a></h3>
+  <ul class="alternate" type="square">
+    <li><span class="nobr"><a href="http://groovy.codehaus.org/cvs-usage.html" rel="nofollow">CVS</a></span></li>
+    <li><span class="nobr"><a href="http://docs.codehaus.org/pages/listpages.action?key=GROOVY" rel="nofollow">Wiki</a></span></li>
+    <li><a href="/Release+Process" title="Release Process">Release Process</a></li>
+    <li><span class="nobr"><a href="http://groovy.codehaus.org/xref/index.html" rel="nofollow">Source XRef</a></span></li>
+    <li><a href="/JUnit+Reports" title="JUnit Reports">JUnit Reports</a></li>
+    <li><span class="nobr"><a href="http://groovy.codehaus.org/clover/" rel="nofollow">Clover Report</a></span></li>
+    <li><span class="nobr"><a href="http://beetlejuice.codehaus.org/viewProjectSummary.action?projectName=groovy" rel="nofollow">Continuous Integration</a></span></li>
+  </ul>
+  <h3><a name="Navigation-Toolsweuse">Tools we use</a></h3>
+  <table class="confluenceTable">
+    <tr>
+      <td class="confluenceTd"><span class="nobr"><a href="http://www.jetbrains.com/idea/" rel="nofollow">IntelliJ IDEA</a></span></td>
+    </tr>
+    <tr>
+      <td class="confluenceTd"><img align="absmiddle" border=0 src="/download/attachments/1871/intellij.jpg"></td>
+    </tr>
+  </table>
+  <table class="confluenceTable">
+    <tr>
+      <td class="confluenceTd"><span class="nobr"><a href="http://www.yourkit.com" rel="nofollow">YourKit profiler</a></span></td>
+    </tr>
+    <tr>
+      <td class="confluenceTd"><img align="absmiddle" border=0 src="/download/attachments/1871/yourkit.jpg"></td>
+    </tr>
+  </table></span>
+
+            <h3 class="heading3">Feeds</h3>
+            <table border="0" cellspacing="4px">
+            <tr>
+              <td align="right">
+                <a href="http://docs.codehaus.org/spaces/rss.action?key=GROOVY&newPages=false"><img src="http://docs.codehaus.org/images/icons/rss.gif" border="0"></a><br/>
+              </td>
+              <td align="left">
+                <a href="http://docs.codehaus.org/spaces/rss.action?key=GROOVY&newPages=false">Site</a>
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <a href="http://docs.codehaus.org/spaces/blogrss.action?key=GROOVY"><img src="http://docs.codehaus.org/images/icons/rss.gif" border="0"></a>
+              </td>
+              <td align="left">
+                <a href="http://docs.codehaus.org/spaces/blogrss.action?key=GROOVY">News</a>
+              </td>
+            </tr>
+            </table>
+        </td>
+        <td id="rightColumn" valign="top">
+          <div id="page_title">
+            <table width="100%">
+              <tr>
+                <td>
+            GPath 
+                </td>
+                <td align="right">
+            <a href="/GPath?print=1" style="color:#999;font-size:small"><img src="http://www.codehaus.org/print.gif" border="0"></a>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div>
+  <div id="Content">
+    <p>GPath is a path expression language we've integrated into Groovy which is similar in aims and scope as XPath is to XML.<br> 1. Expression language for tree structured data<br> 2. Implementations for XML<br> 3. Can specify a path to an element<br> a.b.c -&gt; all the &lt;c&gt; elements inside &lt;b&gt; inside &lt;a&gt;<br> 4. Can specify attributes<br> a<span class="error">[&quot;@href&quot;]</span> -&gt; the href attribute of all the a elements</p>
+    <h3><a name="GPath-Example">Example</a></h3>
+    <p>The best example of GPath for xml is test-new/groovy/util/XmlSlurperTest.groovy.</p>
+    <p class="paragraph">
+      <div class="code">
+        <div class="codeContent"><pre class="code-java"><span class="code-keyword">package</span> org.codehaus.groovy.sandbox.util
+
+class XmlSlurperTest <span class="code-keyword">extends</span> GroovyTestCase {
+    
+void testXmlParser() {
+    def text = &quot;&quot;&quot;
+&lt;characters&gt;
+  &lt;props&gt;
+    &lt;prop&gt;dd&lt;/prop&gt;
+  &lt;/props&gt;
+  &lt;character id=<span class="code-quote">&quot;1&quot;</span> name=<span class="code-quote">&quot;Wallace&quot;</span>&gt;
+     &lt;likes&gt;cheese&lt;/likes&gt;
+  &lt;/character&gt;
+  &lt;character id=<span class="code-quote">&quot;2&quot;</span> name=<span class="code-quote">&quot;Gromit&quot;</span>&gt;
+    &lt;likes&gt;sleep&lt;/likes&gt;
+  &lt;/character&gt;
+&lt;/characters&gt;
+&quot;&quot;&quot;
+        
+    def node = <span class="code-keyword">new</span> XmlSlurper().parseText(text);
+        
+    <span class="code-keyword">assert</span> node != <span class="code-keyword">null</span>
+    <span class="code-keyword">assert</span> node.children().size() == 3 <span class="code-comment">//, <span class="code-quote">&quot;Children ${node.children()}&quot;</span>
+</span>        
+    characters = node.character
+    println <span class="code-quote">&quot;node:&quot;</span> + node.children().size()
+    println <span class="code-quote">&quot;charcters:&quot;</span> + node.character.size()
+    <span class="code-keyword">for</span> (c in characters) {
+        println c['@name']
+    }
+        
+    <span class="code-keyword">assert</span> characters.size() == 2
+        
+    <span class="code-keyword">assert</span> node.character.likes.size() == 2 <span class="code-comment">//, <span class="code-quote">&quot;Likes ${node.character.likes}&quot;</span>
+</span>        
+    <span class="code-comment">// lets find Gromit
+</span>    def gromit = node.character.find { it['@id'] == '2' }
+    <span class="code-keyword">assert</span> gromit != <span class="code-keyword">null</span> <span class="code-comment">//, <span class="code-quote">&quot;Should have found Gromit!&quot;</span>
+</span>    <span class="code-keyword">assert</span> gromit['@name'] == <span class="code-quote">&quot;Gromit&quot;</span>        
+        
+    <span class="code-comment">// lets find what Wallace likes in 1 query
+</span>    def answer = node.character.find { it['@id'] == '1' }.likes[0].text()
+    <span class="code-keyword">assert</span> answer == <span class="code-quote">&quot;cheese&quot;</span>
+}
+}</pre></div>
+      </div>
+    </p>
+    <h3><a name="GPath-Outline">Outline</a></h3>
+    <h5><a name="GPath-1.Accessingelementasproperty">1.Accessing element as property</a></h5>
+    <p class="paragraph">
+      <div class="code">
+        <div class="codeContent"><pre class="code-java">def  characters = node.character 
+def  gromit =  node.character[1]</pre></div>
+      </div>
+    </p>
+    <h5><a name="GPath-2.Accessingattributes">2.Accessing attributes</a></h5>
+    <p class="paragraph">
+      <div class="code">
+        <div class="codeContent"><pre class="code-java">println gromit['@name']</pre></div>
+      </div>
+    </p>
+    <h5><a name="GPath-3.Accessingelementbody">3.Accessing element body</a></h5>
+    <p class="paragraph">
+      <div class="code">
+        <div class="codeContent"><pre class="code-java">println gromit.likes[0].text()
+println node.text()</pre></div>
+      </div>
+    </p>
+    <p>If the element is a father node,it will print all children's text.</p>
+    <h5><a name="GPath-3.ExploretheDOMusechildren%28%29andparent%28%29">3.Explore the DOM use children() and parent()</a></h5>
+    <p class="paragraph">
+      <div class="code">
+        <div class="codeContent"><pre class="code-java">def characters = node.children()
+<span class="code-keyword">for</span> (c in characters) {
+    println c['@name']
+}</pre></div>
+      </div>
+    </p>
+    <p>but the parent() is not implement in current version XmlSlurper.java, i had upload an attachement to patch it.</p>
+    <h5><a name="GPath-4.Findelementsuseexpression">4.Find elements use expression</a></h5>
+    <p class="paragraph">
+      <div class="code">
+        <div class="codeContent"><pre class="code-java">def gromit = node.character.find { it['@id'] == '2' }</pre></div>
+      </div>
+    </p>
+    <h3><a name="GPath-References">References</a></h3>
+    <p><span class="nobr"><a href="http://today.java.net/pub/a/today/2004/08/12/groovyxml.html" rel="nofollow">Getting Groovy with XML</a></span> by Jack Herrington.<br><span class="nobr"><a href="http://wiki.codehaus.org/groovy/PathExpressionLanguage" rel="nofollow">See some examples</a></span>.</p>
+  </div>
+</div>
+
+          &nbsp;
+        </td>
+          <td id="extraColumn" valign="top" width="120" style="background-color: #eeeeee">
+    <script type="text/javascript"><!--
+google_ad_client = "pub-3023399591478482";
+google_alternate_ad_url = "http://codehaus.org/ad.html";
+google_ad_width = 120;
+google_ad_height = 600;
+google_ad_format = "120x600_as";
+google_color_border = "eeeeee";
+google_color_bg = "eeeeee";
+google_color_link = "007700";
+google_color_url = "007700";
+google_color_text = "333333";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+  </td>
+
+      </tr>
+      <tr>
+        <td colspan="3" id="footer">
+          <table width="100%"> 
+            <tr>
+              <td align="left" valign="top">
+          Copyright 2004. All rights reserved unless otherwise noted.<br/>
+          Powered by <a href="http://atlassian.com/">Atlassian</a> <a href="http://atlassian.com/confluence/">Confluence</a>.
+              </td>
+              <td align="right" valign="top">
+          <a style="color:#999;" href="http://docs.codehaus.org/pages/editpage.action?spaceKey=GROOVY&title=GPath">[ edit ]</a>
+              </td>
+            </tr>
+          <table>
+        </td>
+      </tr>
+    </table>
+  </body>
+
+</html>
+
+

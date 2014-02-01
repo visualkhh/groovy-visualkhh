@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding='utf-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Blogging Roller</title>
+    <subtitle>Dave Johnson on blogging, open source and Java</subtitle>
+                   <id>http://rollerweblogger.org/atom/roller</id>
+       <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller" />
+       <link rel="self" type="application/atom+xml" 
+            href="http://rollerweblogger.org/atom/roller?catname=/Java" />
+        <updated>2005-12-16T17:27:03-05:00</updated>
+    <generator uri="http://www.rollerweblogger.org" version="2.1-dev (20051223104129:dave)">
+       Roller Weblogger
+    </generator>
+    <author>
+      <name>Blogging Roller</name>
+      <uri>http://rollerweblogger.org/page/roller</uri>
+    </author>        <entry>
+        <title>Sun portal 7 to include JSPWiki, hey what about LGPL?</title>
+        <id>http://rollerweblogger.org/page/roller?entry=sun_portal_7_to_include</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=sun_portal_7_to_include"/>
+        <published>2005-12-16T17:27:03-05:00</published>
+        <updated>2005-12-17T12:15:04-05:00</updated>
+                <content type="html">                             &lt;br /&gt;&lt;a href=&quot;http://jspwiki.org&quot;&gt;&lt;img border=&quot;0&quot; alt=&quot;&quot; src=&quot;http://rollerweblogger.org/wiki/images/jspwiki_logo.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;I had no idea. I&#39;ve read a number of presentations and internals docs about our portal product, but somehow I completely missed the fact that Sun portal 7 (or for the lawyers in the audience &lt;a href=&quot;http://www.sun.com/software/products/portal_srvr/index.xml&quot;&gt;Sun Java™ System Portal Server 7&lt;/a&gt;) will include my favorite wiki software &lt;a href=&quot;http://jspwiki.org/&quot;&gt;JSPWiki&lt;/a&gt;. &lt;br /&gt;&lt;blockquote&gt;&lt;a href=&quot;http://blogs.sun.com/roller/page/sharps?entry=bringing_web_2_0_to&quot;&gt;Rich Shaples&lt;/a&gt;: this means you can deploy and manage the wiki infrastructure centrally
+yet allow communities to maintain their own sites - so you get the
+benefits of centralized management without the inflexibility. As well
+as support for Wiki Portlets (and Portlets within wikis), Portal Server
+7 introduces the new concept of communities - to reflect the informal.
+non hierarchical nature of many workgroups (ie. virtual teams). There
+is also great support for AJAX in Portlets to enable you to develop
+apps. with a much richer user interface.&lt;/blockquote&gt;Cool beans. And that got me thinking. Sun&#39;s open source java projects (e.g. Glassfish and eventually Portal) will have an advantage of sorts over Apache&#39;s open source Java projects (e.g. Geronimo and Pluto) because Sun can include LGPL components. Apache policy forbids ASF products from having dependencies on components with licenses more restrictive than the ASL. Sun has no such policy. So for example, Sun can bundle JSPWiki, use Hibernate and have bundelicious relationships with other LGPL goodies. Very interesting...&lt;br /&gt;&lt;br /&gt;
+Tags: 
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/wiki&quot;&gt;wiki&lt;/a&gt;,
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/JSPWiki&quot;&gt;JSPWiki&lt;/a&gt;,
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/Sun&quot;&gt;Sun&lt;/a&gt;,
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/LGPL&quot;&gt;LGPL&lt;/a&gt;, &lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/Apache&quot;&gt;Apache&lt;/a&gt;&lt;br /&gt;
+         </content>
+                    </entry>
+        <entry>
+        <title>ApacheCon Tuesday</title>
+        <id>http://rollerweblogger.org/page/roller?entry=apachecon_tuesday</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=apachecon_tuesday"/>
+        <published>2005-12-13T23:25:16-05:00</published>
+        <updated>2005-12-14T13:38:07-05:00</updated>
+                <content type="html">                             
+&lt;br&gt;On Tuesday I attended talks on new trends in web security, &lt;a href=&quot;http://lenya.apache.org/&quot;&gt;Lenya&lt;/a&gt; and &lt;a href=&quot;http://incubator.apache.org/jackrabbit/&quot;&gt;JackRabbit&lt;/a&gt;, &lt;a href=&quot;http://ibatis.apache.org/&quot;&gt;iBatis&lt;/a&gt;, Apache XML-binding approaches, Struts and &lt;a href=&quot;http://struts.apache.org/struts-shale/&quot;&gt;Struts Shale&lt;/a&gt;. I didn&#39;t learn a whole lot new, but it was good to get an update on these projects, status and plans for the future -- especially in the case of Struts, which seems to be forking into two incompatible frameworks (Struts TI and Struts Shale). Here&#39;s &lt;a href=&quot;http://husted.com/ted/index.html&quot;&gt;Ted Husted&lt;/a&gt; introducing &lt;a href=&quot;http://blogs.sun.com/roller/page/craigmcc&quot;&gt;Craig McClanahan&lt;/a&gt;&#39;s talk on Struts Shale.&lt;br&gt;&lt;br&gt;&lt;img src=&quot;http://static.flickr.com/35/73541517_da7dbedb1a_m.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;After the early evening lightning talks, there was a screening of Michael Wechner&#39;s excellent documentary film FUD (&lt;a href=&quot;http://www.wyonapictures.com/&quot;&gt;Wyona Pictures&lt;/a&gt;), which included interviews with &lt;a href=&quot;http://en.wikipedia.org/wiki/Brian_Behlendorf&quot;&gt;Brian Behlendorf&lt;/a&gt;, &lt;a href=&quot;http://danesecooper.blogs.com/divablog/&quot;&gt;Danese Cooper&lt;/a&gt;, &lt;a href=&quot;http://ken.coar.org/burrow/&quot;&gt;Ken Coar&lt;/a&gt;, &lt;a href=&quot;http://intertwingly.net&quot;&gt;Sam Ruby&lt;/a&gt; and others. Sam wasn&#39;t able to come to the conference, so it was nice to see/hear him up on the big screen. Here&#39;s Sam:&lt;br&gt;&lt;br&gt;&lt;img src=&quot;http://static.flickr.com/35/73541519_5ec13491af_m.jpg&quot;&gt;&lt;br&gt;
+&lt;br&gt;
+
+         </content>
+                    </entry>
+        <entry>
+        <title>ApacheCon Tuesday: Tim Bray&#39;s keynote</title>
+        <id>http://rollerweblogger.org/page/roller?entry=apachecon_tuesday_tim_bray_s</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=apachecon_tuesday_tim_bray_s"/>
+        <published>2005-12-13T23:12:08-05:00</published>
+        <updated>2005-12-14T13:40:26-05:00</updated>
+                <content type="html">                             &lt;br&gt;Tim Bray&#39;s slides for ApacheCon/US 2005 contained just five works: Derby, Threads, Beyond Java, Thanks. While the &lt;span style=&quot;font-weight: bold;&quot;&gt;Derby&lt;/span&gt; slide was on the screen, Tim announced that Sun will be using and supporting Derby under the name Open Java DB and &lt;a href=&quot;http://blogs.sun.com/roller/page/FrancoisOrsini&quot;&gt;Francois Orsini&lt;/a&gt; gave demo of Derby embedded in Firefox and scripted by JavaScript, cool enough to excite even &lt;a href=&quot;http://www.sauria.com/blog/2005/12/13#1440&quot;&gt;jaded Ted&lt;/a&gt;. While the word &lt;span style=&quot;font-weight: bold;&quot;&gt;Threads&lt;/span&gt; was on the screen, Tim talked about Niagara and how CMT processors are going to be part of every webapp developer&#39;s future. For &lt;span style=&quot;font-weight: bold;&quot;&gt;Beyond Java&lt;/span&gt;, Tim recommended the book of the same name, but took issue with some of the points (see his post on &lt;a href=&quot;http://www.tbray.org/ongoing/When/200x/2005/11/30/On-Beyond-Java&quot;&gt;Beyond Java&lt;/a&gt;) and tried to stir some controversy by saying that threading features in Python and Ruby are &quot;toys.&quot; Surprisingly, nobody took issue with this in the Q&amp;amp;A that followed the talk. On the &lt;span style=&quot;font-weight: bold;&quot;&gt;Thanks&lt;/span&gt; slide, Tim took some time to thank Apache for 10 years of wonderful software and finally ended with a simple plea: don&#39;t screw up.&lt;br&gt;&lt;br&gt;Here&#39;s Tim delivering the Tuesday keynote (apologies for the fuzzy photos).&lt;br&gt;&lt;img src=&quot;http://static.flickr.com/20/73541520_2784e90356_m.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;
+
+         </content>
+                    </entry>
+        <entry>
+        <title>ApacheCon arrival</title>
+        <id>http://rollerweblogger.org/page/roller?entry=apachecon_arrival</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=apachecon_arrival"/>
+        <published>2005-12-11T13:56:16-05:00</published>
+        <updated>2005-12-11T15:22:04-05:00</updated>
+                <content type="html">                             &lt;p&gt;I arrived at &lt;a href=&quot;http://apachecon.com&quot;&gt;ApacheCon&lt;/a&gt; yesterday (Saturday) on a beautiful San Diego day, clear skies mild weather. I took a couple of pictures and posted them on &lt;a href=&quot;http://www.flickr.com/photos/63011397@N00/&quot;&gt;Flickr&lt;/a&gt; for kids back home. Of course, the sunshine didn&#39;t stop me from marching right down to the basement for the hackathon, where I met &lt;a href=&quot;http://blog.generationjava.com/roller/page/bayard&quot;&gt;Henri Yandell&lt;/a&gt; for the first time and ran into most of the same characters I&#39;d encountered at last years&#39;s hackaton. I didn&#39;t stay late last night because I picked up a cold. Instead, I decided to sleep (for 10 hours!). After coffee, advil, sudafed and a long walk down the cruise ship docks this morning, I&#39;m back and feeling much better. 
+
+&lt;p&gt;Despite the beer, pizza, comfy couches and dinners that keep on rolling into the room, the hackathon is not just a social event. People have work to do and seem to be able to go heads-down and focus on getting things done.  For example, today I&#39;m sitting at the Geronimo table with Bruce Synder, David Jencks and others, where they&#39;re working to finish the &lt;a href=&quot;http://geronimo.apache.org/&quot;&gt;Geronimo&lt;/a&gt; 1.0 release before the actual conference begins. I&#39;ve got a little work to do today as well. My goal for the day is prepare the first &lt;a href=&quot;http://blogapps.dev.java.net&quot;&gt;Blogapps&lt;/a&gt; release, get ready for my talk tomorrow and help out with the extra beer problem. More later...&lt;/p&gt;
+
+
+&lt;p&gt;
+Tags: 
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/ApacheCon&quot;&gt;ApacheCon&lt;/a&gt;,
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/ApacheCon2005&quot;&gt;ApacheCon2005&lt;/a&gt;
+&lt;/p&gt;
+
+         </content>
+                    </entry>
+        <entry>
+        <title>The Aquarium: Roller-powered group blog on Glassfish</title>
+        <id>http://rollerweblogger.org/page/roller?entry=the_aquarium_roller_powered_group</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=the_aquarium_roller_powered_group"/>
+        <published>2005-12-08T15:23:16-05:00</published>
+        <updated>2005-12-14T18:55:28-05:00</updated>
+                <content type="html">                             
+&lt;br&gt;&lt;br&gt;&lt;a href=&quot;http://java.sun.com/javaee/glassfish/&quot;&gt;&lt;img src=&quot;http://rollerweblogger.org/resources/roller/open_projectglassfish_2.png&quot; alt=&quot;Glassfish logo&quot; title=&quot;Glassfish: the open source Java EE 5 application server&quot; border=&quot;0&quot;&gt;
+&lt;/a&gt;&lt;br&gt;Here&#39;s to Eduardo, Carla and Rich who recently launched 
+&lt;a href=&quot;http://blogs.sun.com/roller/page/theaquarium&quot;&gt;The Aquarium&lt;/a&gt;, the first Roller-powered group blog that I&#39;ve seen in the wild. 
+
+They&#39;ll be blogging the growing 
+&lt;a href=&quot;http://java.sun.com/javaee/glassfish/&quot;&gt;Glassfish&lt;/a&gt; community and, I hope, providing us with some feedback to help us improve the Roller group blogging experience.
+&lt;p&gt;&lt;/p&gt;
+
+         </content>
+                    </entry>
+        <entry>
+        <title>Don&#39;t worry about Ruby</title>
+        <id>http://rollerweblogger.org/page/roller?entry=don_t_worry_about_ruby</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=don_t_worry_about_ruby"/>
+        <published>2005-12-08T11:19:07-05:00</published>
+        <updated>2005-12-08T11:36:02-05:00</updated>
+                <content type="html">                             &lt;blockquote&gt;
+&lt;a href=&quot;http://www.vanwardtechnologies.com/cedricb03.php&quot;&gt;Cedric Beust&lt;/a&gt;: 
+dynamic languages are not making fast progress in developer mindshare
+&lt;/blockquote&gt;
+
+I wonder when that was published. The evidence from 
+&lt;a href=&quot;http://radar.oreilly.com/archives/2005/12/ruby_book_sales_surpass_python.html&quot;&gt;
+Tim O&#39;Reilly&lt;/a&gt; seems to contradict such a claim. 
+
+Tim says Python book sales are up 20% and Ruby are up 1552%. 
+
+Quote found via 
+&lt;a href=&quot;http://www.cincomsmalltalk.com/blog/blogView?entry=3311489337&quot;&gt;James Robertson&lt;/a&gt;.
+         </content>
+                    </entry>
+        <entry>
+        <title>JavaOne 2006 call for papers ends today</title>
+        <id>http://rollerweblogger.org/page/roller?entry=javaone_2006_call_for_papers</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=javaone_2006_call_for_papers"/>
+        <published>2005-11-30T08:14:58-05:00</published>
+        <updated>2005-11-30T08:14:58-05:00</updated>
+                <content type="html">                             &lt;p /&gt;
+It&#39;s not too late to sneak one in. I just submitted one myself. Here&#39;s the link:&lt;br /&gt;
+&lt;a href=&quot;https://www28.cplan.com/cfp_2006J1/CFPLogin.jsp&quot;&gt;
+https://www28.cplan.com/cfp_2006J1/CFPLogin.jsp&lt;/a&gt;
+         </content>
+                    </entry>
+        <entry>
+        <title>Mustang and web continuations</title>
+        <id>http://rollerweblogger.org/page/roller?entry=mustang_and_web_continuations</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=mustang_and_web_continuations"/>
+        <published>2005-11-29T09:18:22-05:00</published>
+        <updated>2005-11-30T10:26:14-05:00</updated>
+                <content type="html">                             &lt;p /&gt;
+Cool! Mustang (Java SE 6) will have 
+&lt;a href=&quot;http://blogs.sun.com/roller/page/sundararajan?entry=continuations_in_javascript&quot;&gt;
+built-in continuations&lt;/a&gt; via the &lt;a href=&quot;http://www.mozilla.org/rhino/&quot;&gt;Rhino&lt;/a&gt; JavaScript engine.  
+So my old 
+&lt;a href=&quot;http://rollerweblogger.org/page/roller?entry=jsp_control_flow_engine&quot;&gt;JSPFlow&lt;/a&gt;
+code and it&#39;s much more successful child 
+&lt;a href=&quot;http://rollerweblogger.org/page/roller?entry=jsp_control_flow_engine&quot;&gt;StrutsFlow&lt;/a&gt; should work right out of the box.
+         </content>
+                    </entry>
+        <entry>
+        <title>Good news for Struts and WebWork fans</title>
+        <id>http://rollerweblogger.org/page/roller?entry=good_news_for_struts_and</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=good_news_for_struts_and"/>
+        <published>2005-11-28T09:13:41-05:00</published>
+        <updated>2005-11-28T10:27:48-05:00</updated>
+                <content type="html">                             &lt;p /&gt;
+The &lt;a href=&quot;http://www.theserverside.com/news/thread.tss?thread_id=37794&quot;&gt;
+ServerSide reports&lt;/a&gt; that two popular Java web application frameworks, 
+&lt;a href=&quot;http://struts.apache.org/&quot;&gt;Struts&lt;/a&gt; and 
+&lt;a href=&quot;http://www.opensymphony.com/webwork/&quot;&gt;WebWork&lt;/a&gt;, are merging.
+
+Here&#39;s the &lt;a href=&quot;http://www.mail-archive.com/dev%40struts.apache.org/msg13815.html&quot;&gt;
+Merger with Webwork&lt;/a&gt; proposal.
+
+That&#39;s really good news for Struts users (like me). We&#39;ll get the WebWork innovations (and maybe even a good upgrade path) and WebWork users will get a bigger/stronger community.
+
+
+         </content>
+                    </entry>
+        <entry>
+        <title>Why use Websphere WCE?</title>
+        <id>http://rollerweblogger.org/page/roller?entry=why_use_websphere_wce</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=why_use_websphere_wce"/>
+        <published>2005-11-21T22:55:45-05:00</published>
+        <updated>2005-11-21T23:11:05-05:00</updated>
+                <content type="html">                             &lt;p&gt;The weekend is over so I suppose I should blog something to move that awful underwear experiment post down of the page. So how about this. As &lt;a href=&quot;http://blogs.sun.com/roller/page/sharps?entry=websphere_community_edition&quot;&gt;Rich Sharples asks&lt;/a&gt;, why would anybody use 
+&lt;a href=&quot;http://www-128.ibm.com/developerworks/websphere/zones/was/wasce.html&quot;&gt;Websphere Community Edition&lt;/a&gt; rather than &lt;a href=&quot;http://glassfish.dev.java.net/&quot;&gt;Glassfish&lt;/a&gt;/&lt;a href=&quot;http://www.sun.com/software/products/appsrvr/index.xml&quot;&gt;Sun Java App Server&lt;/a&gt;? 
+Know why? Leave him a comment.&lt;p/&gt;
+
+         </content>
+                    </entry>
+        <entry>
+        <title>Netbeans 5.0b2 first impressions</title>
+        <id>http://rollerweblogger.org/page/roller?entry=netbeans_5_0b2_first_impressions</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=netbeans_5_0b2_first_impressions"/>
+        <published>2005-11-18T19:10:54-05:00</published>
+        <updated>2005-11-19T17:37:32-05:00</updated>
+                <content type="html">                             &lt;p&gt;Lookin&#39; good!&lt;/p&gt;
+
+&lt;a href=&quot;http://www.netbeans.info/downloads/download.php?type=5.0b2&quot;&gt;
+&lt;img src=&quot;http://rollerweblogger.org/resources/roller/5.0beta2-button.jpg&quot; 
+alt=&quot;Netbeans 5.0b2 badge&quot; /&gt;
+&lt;/a&gt;
+
+&lt;p&gt;I gave up on the first Netbeans 5.0 beta, it threw way too many weird exceptions and I just didn&#39;t have the time. Fortuately, the new beta2 release looks a lot better. I switched to beta2 on my Mac and tomorrow, I&#39;ll do the same on my Solaris x86 box. It&#39;s got all the refactorings I&#39;d been using in Eclipse and the new CVS client is fantastic compared to the old one and only an interation (or two) away from matching the one in Eclipse.&lt;/p&gt;
+
+&lt;p&gt;The only significant shortcomings I&#39;ve found are the lack of Subversion support and no global search-and-replace. Actually, Netbeans 5.0 does have Subversion support, but it&#39;s based on the crummy old &quot;generic VCS&quot; system and, what&#39;s worse, you 
+&lt;a href=&quot;http://www.netbeans.org/servlets/ReadMsg?list=nbusers&amp;amp;msgNo=60704&quot;&gt;
+can&#39;t use both the new CVS client and the Subversion client&lt;/a&gt; at the same time. That&#39;s pretty disappointing for those who have projects in both CVS and Subversion (like me). So Netbeans guys, want me to delete Eclipse from my hard-dive? You&#39;re almost there. Just add those two missing features.&lt;/p&gt;
+
+         </content>
+                    </entry>
+        <entry>
+        <title>I&#39;m in ROME</title>
+        <id>http://rollerweblogger.org/page/roller?entry=i_m_in_rome</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=i_m_in_rome"/>
+        <published>2005-11-15T15:18:47-05:00</published>
+        <updated>2005-11-15T15:18:47-05:00</updated>
+                <content type="html">                             &lt;p /&gt;
+&lt;a href=&quot;http://rome.dev.java.net/&quot;&gt;
+&lt;img src=&quot;http://rollerweblogger.org/resources/roller/rome-logo.png&quot; alt=&quot;ROME logo&quot; /&gt;
+&lt;/a&gt;
+&lt;p /&gt;
+YeeeHAI! I&#39;ve been accepted as a committer on the &lt;a href=&quot;http://rome.dev.java.net/&quot;&gt;ROME&lt;/a&gt; project, which is very convenient because I have a big ole &lt;a href=&quot;http://www.rollerweblogger.org/wiki/Wiki.jsp?page=Rome08Atom10Patch&quot;&gt;chunk&#39;o&#39;code&lt;/a&gt; to commit for Atom 1.0 format support. After reviews and tweaks, Atom format 1.0 support should be available in ROME v0.8.
+         </content>
+                    </entry>
+        <entry>
+        <title>Top&#39;o&#39;the line Java tools free (as in beer)</title>
+        <id>http://rollerweblogger.org/page/roller?entry=top_o_the_line_java</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=top_o_the_line_java"/>
+        <published>2005-11-10T17:26:52-05:00</published>
+        <updated>2005-11-10T20:43:04-05:00</updated>
+                <content type="html">                             &lt;p /&gt;
+Both Java Studio Creator and Java Studio Enterprise are now free to Sun Developer Network members, which is also free. Judging from the wording on the page, this looks like a limited time offer. 
+Check out the &lt;a href=
+&quot;http://developers.sun.com/prodtech/javatools/jsenterprise/learning/tutorials/jse8/overview/index.html&quot;&gt;flash-demo&lt;/a&gt; of Studio Enterpise on the 
+&lt;a href=&quot;http://developers.sun.com/prodtech/javatools/free/&quot;&gt;SDN free Java tools page&lt;/a&gt;, the UML tool looks very cool.
+         </content>
+                    </entry>
+        <entry>
+        <title>Cool JDIC embedded native browser screenshot</title>
+        <id>http://rollerweblogger.org/page/roller?entry=cool_jdic_embedded_native_browser</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=cool_jdic_embedded_native_browser"/>
+        <published>2005-11-01T09:35:17-05:00</published>
+        <updated>2005-11-01T09:35:17-05:00</updated>
+                <content type="html">                             &lt;p /&gt;
+&lt;a href=
+&quot;http://blogs.sun.com/roller/page/geertjan?entry=blogging_in_netbeans_on_netbeans&quot;&gt;
+Geertjan&lt;/a&gt;&#39;s got a very cool screenshot of (what looks like) Mozilla embedded in Netbeans  via the &lt;a href=&quot;https://jdic.dev.java.net/&quot;&gt;JDIC&lt;/a&gt; project&#39;s Embedded Browser Component.   
+
+         </content>
+                    </entry>
+        <entry>
+        <title>Netbeans 5.0 beta!</title>
+        <id>http://rollerweblogger.org/page/roller?entry=netbeans_5_0_beta</id>
+        <link rel="alternate" type="text/html" href="http://rollerweblogger.org/page/roller?entry=netbeans_5_0_beta"/>
+        <published>2005-09-30T17:19:00-04:00</published>
+        <updated>2005-11-18T14:46:19-05:00</updated>
+                <content type="html">                             &lt;p /&gt;
+&lt;a href=&quot;http://www.netbeans.org&quot;&gt;
+&lt;img src=&quot;http://rollerweblogger.org/resources/roller/netbeans5b.jpg&quot; alt=&quot;Netbeans5b logo&quot; /&gt;
+&lt;/a&gt;
+&lt;p /&gt;
+In case you live under a rock and haven&#39;t heard the news yet, Netbeans 5.0 beta is out. I&#39;m &lt;a href=&quot;http://www.netbeans.info/downloads/download.php?type=5.0b&quot;&gt;downloading&lt;/a&gt; it now. I tried one of the q-builds a couple of weeks ago and was amazed by the new &lt;a href=&quot;http://www.netbeans.org/kb/articles/cvs-preview.html&quot;&gt;CVS integration&lt;/a&gt;. This time around I&#39;m going to take the new Matisse GUI builder for a spin and see what it can do for my clunky little &lt;a href=&quot;http://rollerweblogger.org/page/roller?entry=blogclient_1_0_an_atom&quot;&gt;BlogClient&lt;/a&gt;.
+         </content>
+                    </entry>
+    </feed>
+
