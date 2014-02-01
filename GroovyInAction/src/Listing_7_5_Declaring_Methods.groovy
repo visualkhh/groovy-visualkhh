@@ -1,5 +1,6 @@
 class SomeClass {
     static void main (args){                        //#1 자동으로 public 접근제한자 없으므로 
+		println "call main"
         def some = new SomeClass()
         some.publicVoidMethod()
         assert 'hi' == some.publicUntypedMethod()
