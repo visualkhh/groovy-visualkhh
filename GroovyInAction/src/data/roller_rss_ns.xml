@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+  <title>Blogging Roller</title>
+  <link>http://rollerweblogger.org/page/roller</link>
+  <description>Dave Johnson on blogging, open source and Java</description>
+  <language>en-us</language>
+  <copyright>Copyright 2005</copyright>
+  <lastBuildDate>Thu, 22 Dec 2005 13:59:06 -0500</lastBuildDate>
+  <generator>Roller Weblogger 2.1-dev (20051223104129:dave)</generator>
+      <item>
+    <title>Today&#39;s links [December 22, 2005]</title>
+        <description>                             &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://taint.org/&quot;&gt;Justin Mason: on ApacheCon and Sun&#39;s open source initiatives&lt;/a&gt;&lt;br /&gt; &quot;there’s no half-assed ‘freeze it, cut out the good bits, and throw it over the wall’ fake-open-source tricks&quot;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.stdlib.net/%7Ecolmmacc/2005/12/22/justin-mason-is-a-god/&quot;&gt;Colm MacCárthaigh on DTrace, Niagara and God&lt;/a&gt; 
+&lt;div class=&quot;extended&quot;&gt;&quot;Sun really have made a gigantic sea-change, and it is kind of mind-blowing. Good stuff!&quot;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.broadbandmechanics.com/2005/12/snarky-castles-in-the-sky-from-one-believer-to-a-trio-of-nay-sayers&quot;&gt;Snarky Castles in the Sky&lt;/a&gt;&lt;br /&gt; The “let’s invent a buzzword that everyone is doing anyway and ride that pony” school of thought.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.niallkennedy.com/blog/archives/2005/12/my_yahoo_feed_a.html&quot;&gt;My Yahoo! feed API&lt;/a&gt;&lt;br /&gt; Niall Kennedy reverse engineers the Yahoo feed API&lt;/li&gt;&lt;/ul&gt;
+         </description>
+    <category>Links</category>
+    <link>http://rollerweblogger.org/page/roller?entry=today_s_links_december_22</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=today_s_links_december_22</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=today_s_links_december_22</comments>
+        <pubDate>Thu, 22 Dec 2005 13:59:06 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>Yet another Roller release</title>
+        <description>                             &lt;br /&gt;&lt;a target=&quot;_self&quot; href=&quot;http://blogs.sun.com/roller/page/gconf?entry=wrapping_up_roller_2_1&quot;&gt;Allen&lt;/a&gt;&#39;s written a short post about the cache changes in Roller 2.1 (which is&amp;nbsp; almost ready for release) and the caching challenges ahead.&lt;br /&gt;
+         </description>
+    <category>Roller</category>
+    <link>http://rollerweblogger.org/page/roller?entry=yet_another_roller_release</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=yet_another_roller_release</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=yet_another_roller_release</comments>
+        <pubDate>Wed, 21 Dec 2005 16:27:40 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>Blogapps server and examples snapshot release available</title>
+        <description>                             &lt;br /&gt;I just uploaded a snapshot release of the examples for my book &lt;a href=&quot;http://manning.com/dmjohnson&quot; target=&quot;_self&quot;&gt;RSS and Atom in Action&lt;/a&gt;. There are separate downloads for the Blogapps server and the example code available now on the &lt;a href=&quot;https://blogapps.dev.java.net/&quot; target=&quot;_self&quot;&gt;Blogapps project&lt;/a&gt; web site.&lt;br /&gt;&lt;br /&gt;If you want to get a sneak-peek at the soon to be released Roller 2.1, download the Blogapps server. It includes the latest Roller code, JSPWiki, Tomcat and HSQLDB -- all in one super-easy to install bundle. Instructions are on the Blogapps site. If you have a Java 1.4.2 JDK, then all you have to do is unzip the release and type startup.&lt;br /&gt;
+         </description>
+    <category>Blogging</category>
+    <link>http://rollerweblogger.org/page/roller?entry=blogapps_server_and_examples_snapshot</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=blogapps_server_and_examples_snapshot</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=blogapps_server_and_examples_snapshot</comments>
+        <pubDate>Tue, 20 Dec 2005 18:15:06 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>Raleigh bloggers meetup tonight</title>
+        <description>                             &lt;br /&gt;&lt;br /&gt;Join us at Cafe Cyclo in Cameron Village tonight for the last Raleigh bloggers meetup of the year.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.joshstaiger.org/archives/2005/12/raleigh_blogger_8.html&quot; target=&quot;_self&quot;&gt;Josh has the details&lt;/a&gt;.&lt;br /&gt;
+         </description>
+    <category>Blogging</category>
+    <link>http://rollerweblogger.org/page/roller?entry=raleigh_bloggers_meetup_tonight</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=raleigh_bloggers_meetup_tonight</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=raleigh_bloggers_meetup_tonight</comments>
+        <pubDate>Tue, 20 Dec 2005 10:17:40 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>Roller news</title>
+        <description>                             &lt;br /&gt;Here&#39;s a couple of items of interest to Roller watchers.&lt;br /&gt;&lt;br /&gt;Longtime Roller user and contributor Matt Schmidt, director of technology at Javalobby and the guy who keeps &lt;a target=&quot;_self&quot; href=&quot;http://jroller.com/&quot;&gt;JRoller.com&lt;/a&gt;
+humming along, has ageed to join the Roller project. Matt&#39;s been
+helping out with Roller for a long time, some this is mostly a
+formality -- but working more closely with the project should help
+Matt keep JRoller.com up to date with Roller releases (and hopefully
+help us snag some of his enhancements).&lt;br /&gt;&lt;br /&gt;Thanks to Patricio Martínez Ros, who has contributed a complete Spanish (es_ES) for Roller
+2.1. Our translations have fallen behind a bit and we need all the help we can get. If you&#39;d like to help
+out, let us know (on the &lt;a target=&quot;_self&quot; href=&quot;../wiki/Wiki.jsp?page=RollerMailingLists&quot;&gt;roller-dev mailing list&lt;/a&gt;). There are some docs to get you started in Anil&#39;s &lt;a target=&quot;_self&quot; href=&quot;../wiki/Wiki.jsp?page=LocalizationGuide&quot;&gt;Localization Guide&lt;/a&gt; and we can help you get the files you need (or a snapshot build).&lt;br /&gt;
+         </description>
+    <category>Roller</category>
+    <link>http://rollerweblogger.org/page/roller?entry=roller_news1</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=roller_news1</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=roller_news1</comments>
+        <pubDate>Mon, 19 Dec 2005 23:11:07 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>Sun portal 7 to include JSPWiki, hey what about LGPL?</title>
+        <description>                             &lt;br /&gt;&lt;a href=&quot;http://jspwiki.org&quot;&gt;&lt;img border=&quot;0&quot; alt=&quot;&quot; src=&quot;http://rollerweblogger.org/wiki/images/jspwiki_logo.png&quot; /&gt;&lt;/a&gt;&lt;br /&gt;I had no idea. I&#39;ve read a number of presentations and internals docs about our portal product, but somehow I completely missed the fact that Sun portal 7 (or for the lawyers in the audience &lt;a href=&quot;http://www.sun.com/software/products/portal_srvr/index.xml&quot;&gt;Sun Java™ System Portal Server 7&lt;/a&gt;) will include my favorite wiki software &lt;a href=&quot;http://jspwiki.org/&quot;&gt;JSPWiki&lt;/a&gt;. &lt;br /&gt;&lt;blockquote&gt;&lt;a href=&quot;http://blogs.sun.com/roller/page/sharps?entry=bringing_web_2_0_to&quot;&gt;Rich Shaples&lt;/a&gt;: this means you can deploy and manage the wiki infrastructure centrally
+yet allow communities to maintain their own sites - so you get the
+benefits of centralized management without the inflexibility. As well
+as support for Wiki Portlets (and Portlets within wikis), Portal Server
+7 introduces the new concept of communities - to reflect the informal.
+non hierarchical nature of many workgroups (ie. virtual teams). There
+is also great support for AJAX in Portlets to enable you to develop
+apps. with a much richer user interface.&lt;/blockquote&gt;Cool beans. And that got me thinking. Sun&#39;s open source java projects (e.g. Glassfish and eventually Portal) will have an advantage of sorts over Apache&#39;s open source Java projects (e.g. Geronimo and Pluto) because Sun can include LGPL components. Apache policy forbids ASF products from having dependencies on components with licenses more restrictive than the ASL. Sun has no such policy. So for example, Sun can bundle JSPWiki, use Hibernate and have bundelicious relationships with other LGPL goodies. Very interesting...&lt;br /&gt;&lt;br /&gt;
+Tags: 
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/wiki&quot;&gt;wiki&lt;/a&gt;,
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/JSPWiki&quot;&gt;JSPWiki&lt;/a&gt;,
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/Sun&quot;&gt;Sun&lt;/a&gt;,
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/LGPL&quot;&gt;LGPL&lt;/a&gt;, &lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/Apache&quot;&gt;Apache&lt;/a&gt;&lt;br /&gt;
+         </description>
+    <category>Java</category>
+    <link>http://rollerweblogger.org/page/roller?entry=sun_portal_7_to_include</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=sun_portal_7_to_include</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=sun_portal_7_to_include</comments>
+        <pubDate>Fri, 16 Dec 2005 17:27:03 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>Localizing Roller</title>
+        <description>                             &lt;br&gt;&lt;a href=&quot;http://www.busybuddha.org/blog/page/anil&quot;&gt;Anil Gangolli&lt;/a&gt; has put together a very nice &lt;a href=&quot;http://rollerweblogger.org/wiki/Wiki.jsp?page=LocalizationGuide&quot;&gt;Localization Guide for Roller&lt;/a&gt;.&lt;br&gt;
+         </description>
+    <category>Roller</category>
+    <link>http://rollerweblogger.org/page/roller?entry=localizing_roller</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=localizing_roller</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=localizing_roller</comments>
+        <pubDate>Fri, 16 Dec 2005 09:40:40 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>I&#39;m back</title>
+        <description>                             &lt;br&gt;And it&#39;s very nice to be home. &lt;br&gt;
+         </description>
+    <category>General</category>
+    <link>http://rollerweblogger.org/page/roller?entry=i_m_back4</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=i_m_back4</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=i_m_back4</comments>
+        <pubDate>Fri, 16 Dec 2005 09:12:49 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>ApacheCon Wednesday</title>
+        <description>                             
+&lt;br&gt;I&#39;m definitely suffering from some ApacheCon-fatigue, a combination of information overload and lack of sleep. I just can&#39;t sleep past 6AM when I&#39;m on the west coast, no matter how late I stay up. Oh well, today was the last day. &lt;br&gt;&lt;br&gt;I only attended one talk this morning: &lt;a href=&quot;http://www.radwin.org/michael/blog/&quot;&gt;Michael Radwin&lt;/a&gt;&#39;s &lt;a href=&quot;http://public.yahoo.com/%7Eradwin/talks/http-caching-apachecon2005.htm&quot;&gt;HTTP Cache and Cache Busting for Content Publishers&lt;/a&gt;. I think I learned more Roller-relevant stuff from this talk than any other at the conference. After that, I spent the rest of the morning and lunch-time helping Craig Russell and Ian Kallen get their Roller development environments set up. As I &lt;a href=&quot;http://rollerweblogger.org/page/roller?entry=apachecon_roller_persistence_bake_off&quot;&gt;mentioned yesterday&lt;/a&gt;, Craig wants to help create a JDO implementation of the Roller backend. Ian (who works for &lt;a href=&quot;http://technorati.com&quot;&gt;Technorati&lt;/a&gt;) wants to contribute to Roller in the areas of tagging and micro-formats.&lt;br&gt;&lt;br&gt;In the afternoon I tuned in to the Ruby for Java Developers talk and &lt;a href=&quot;http://kasparov.skife.org/blog/&quot;&gt;Brian McAllister&lt;/a&gt;&#39;s Ruby on Rails talk. Brian&#39;s talk was my favorite of the two and I especially liked the way he illustrated the talk with screencasts (via &lt;a href=&quot;http://www.ambrosiasw.com/utilities/snapzprox/&quot;&gt;Snapz Pro X&lt;/a&gt;). One of these days, I&#39;ll have some time to play with Ruby -- probably right around the time it&#39;s no longer cool with the shiny new object hipsters. After the Ruby talks, the conference ended with a key-note by &lt;a href=&quot;http://www.advanced.org/jaron/&quot;&gt;Jaron Lanier&lt;/a&gt;. Jaron&#39;s talk was little too rambling for my taste, &quot;mono-directional blabbing&quot; he called it, but got a lot better when he started telling jokes and doing Al Sharpton and Steve Ballmer immitations. &lt;br&gt;&lt;br&gt;That&#39;s all for my ApacheCon/US 2005 blogging. Thanks to the ApacheCon organizers and all Apache-folk for another great conference. I&#39;m already trying to figure out how I can get myself to the next one.&lt;br&gt;
+
+         </description>
+    <category>General</category>
+    <link>http://rollerweblogger.org/page/roller?entry=apachecon_wednesday</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=apachecon_wednesday</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=apachecon_wednesday</comments>
+        <pubDate>Wed, 14 Dec 2005 23:19:10 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>ApacheCon Tuesday</title>
+        <description>                             
+&lt;br&gt;On Tuesday I attended talks on new trends in web security, &lt;a href=&quot;http://lenya.apache.org/&quot;&gt;Lenya&lt;/a&gt; and &lt;a href=&quot;http://incubator.apache.org/jackrabbit/&quot;&gt;JackRabbit&lt;/a&gt;, &lt;a href=&quot;http://ibatis.apache.org/&quot;&gt;iBatis&lt;/a&gt;, Apache XML-binding approaches, Struts and &lt;a href=&quot;http://struts.apache.org/struts-shale/&quot;&gt;Struts Shale&lt;/a&gt;. I didn&#39;t learn a whole lot new, but it was good to get an update on these projects, status and plans for the future -- especially in the case of Struts, which seems to be forking into two incompatible frameworks (Struts TI and Struts Shale). Here&#39;s &lt;a href=&quot;http://husted.com/ted/index.html&quot;&gt;Ted Husted&lt;/a&gt; introducing &lt;a href=&quot;http://blogs.sun.com/roller/page/craigmcc&quot;&gt;Craig McClanahan&lt;/a&gt;&#39;s talk on Struts Shale.&lt;br&gt;&lt;br&gt;&lt;img src=&quot;http://static.flickr.com/35/73541517_da7dbedb1a_m.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;After the early evening lightning talks, there was a screening of Michael Wechner&#39;s excellent documentary film FUD (&lt;a href=&quot;http://www.wyonapictures.com/&quot;&gt;Wyona Pictures&lt;/a&gt;), which included interviews with &lt;a href=&quot;http://en.wikipedia.org/wiki/Brian_Behlendorf&quot;&gt;Brian Behlendorf&lt;/a&gt;, &lt;a href=&quot;http://danesecooper.blogs.com/divablog/&quot;&gt;Danese Cooper&lt;/a&gt;, &lt;a href=&quot;http://ken.coar.org/burrow/&quot;&gt;Ken Coar&lt;/a&gt;, &lt;a href=&quot;http://intertwingly.net&quot;&gt;Sam Ruby&lt;/a&gt; and others. Sam wasn&#39;t able to come to the conference, so it was nice to see/hear him up on the big screen. Here&#39;s Sam:&lt;br&gt;&lt;br&gt;&lt;img src=&quot;http://static.flickr.com/35/73541519_5ec13491af_m.jpg&quot;&gt;&lt;br&gt;
+&lt;br&gt;
+
+         </description>
+    <category>Java</category>
+    <link>http://rollerweblogger.org/page/roller?entry=apachecon_tuesday</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=apachecon_tuesday</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=apachecon_tuesday</comments>
+        <pubDate>Tue, 13 Dec 2005 23:25:16 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>ApacheCon: Roller persistence bake-off?</title>
+        <description>                             
+&lt;br&gt;
+On Tuesday, I also talked to (JDO spec lead) &lt;a href=&quot;http://www.oreillynet.com/pub/au/1118&quot;&gt;Craig Russell&lt;/a&gt;, who&#39;s interested in helping
+to create a JDO backend (using &lt;a href=&quot;http://www.jpox.org&quot;&gt;JPOX&lt;/a&gt;) for Roller to replace Hibernate. Later, I talked to (Struts in Action author) &lt;a href=&quot;http://husted.com/ted/index.html&quot;&gt;Ted Husted&lt;/a&gt;,
+who&#39;s interested in doing the same thing with &lt;a href=&quot;http://ibatis.apache.org/&quot;&gt;iBatis&lt;/a&gt;. And even later, at dinner, &lt;a href=&quot;http://www.sauria.com/blog&quot;&gt;Ted Leung&lt;/a&gt; suggested the idea of a Roller persistence bake-off. We&#39;d challenge the JDO, iBatis and even &lt;a href=&quot;http://weblogs.java.net/blog/ss141213/archive/2005/12/using_java_pers.html&quot;&gt;EJB3&lt;/a&gt;
+proponents to create competing implementations of the Roller backend and then we&#39;d choose the
+best one based on performance, generated SQL, developer ease-of-use and
+whatever other factors. The prize? An iPod? No, the prize would be the honor of being the official persistence framework of Roller &lt;img src=&quot;http://rollerweblogger.org/images/smileys/wink.gif&quot; class=&quot;smiley&quot; alt=&quot;;-)&quot; title=&quot;;-)&quot;&gt; &lt;br&gt;
+
+         </description>
+    <category>Roller</category>
+    <link>http://rollerweblogger.org/page/roller?entry=apachecon_roller_persistence_bake_off</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=apachecon_roller_persistence_bake_off</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=apachecon_roller_persistence_bake_off</comments>
+        <pubDate>Tue, 13 Dec 2005 23:13:55 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>ApacheCon Tuesday: Tim Bray&#39;s keynote</title>
+        <description>                             &lt;br&gt;Tim Bray&#39;s slides for ApacheCon/US 2005 contained just five works: Derby, Threads, Beyond Java, Thanks. While the &lt;span style=&quot;font-weight: bold;&quot;&gt;Derby&lt;/span&gt; slide was on the screen, Tim announced that Sun will be using and supporting Derby under the name Open Java DB and &lt;a href=&quot;http://blogs.sun.com/roller/page/FrancoisOrsini&quot;&gt;Francois Orsini&lt;/a&gt; gave demo of Derby embedded in Firefox and scripted by JavaScript, cool enough to excite even &lt;a href=&quot;http://www.sauria.com/blog/2005/12/13#1440&quot;&gt;jaded Ted&lt;/a&gt;. While the word &lt;span style=&quot;font-weight: bold;&quot;&gt;Threads&lt;/span&gt; was on the screen, Tim talked about Niagara and how CMT processors are going to be part of every webapp developer&#39;s future. For &lt;span style=&quot;font-weight: bold;&quot;&gt;Beyond Java&lt;/span&gt;, Tim recommended the book of the same name, but took issue with some of the points (see his post on &lt;a href=&quot;http://www.tbray.org/ongoing/When/200x/2005/11/30/On-Beyond-Java&quot;&gt;Beyond Java&lt;/a&gt;) and tried to stir some controversy by saying that threading features in Python and Ruby are &quot;toys.&quot; Surprisingly, nobody took issue with this in the Q&amp;amp;A that followed the talk. On the &lt;span style=&quot;font-weight: bold;&quot;&gt;Thanks&lt;/span&gt; slide, Tim took some time to thank Apache for 10 years of wonderful software and finally ended with a simple plea: don&#39;t screw up.&lt;br&gt;&lt;br&gt;Here&#39;s Tim delivering the Tuesday keynote (apologies for the fuzzy photos).&lt;br&gt;&lt;img src=&quot;http://static.flickr.com/20/73541520_2784e90356_m.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;
+
+         </description>
+    <category>Java</category>
+    <link>http://rollerweblogger.org/page/roller?entry=apachecon_tuesday_tim_bray_s</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=apachecon_tuesday_tim_bray_s</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=apachecon_tuesday_tim_bray_s</comments>
+        <pubDate>Tue, 13 Dec 2005 23:12:08 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>ApacheCon Monday (and my Roller talk)</title>
+        <description>                             &lt;br /&gt;Here&#39;s an update on my ApacheCon 2005 experience.This morning was day one of the conference proper. The opening keynote &quot;Open source is not illegal -- yet&quot; by Cory Doctorow was quite entertaining and at the same time quite scary. Cory explained how the governments of the world, including the US, are enacting draconian entertainment industry sponsored laws to mandate Digital Restrictions Management (DRM) in all essentially all hardware and software products. He also explained how the &lt;a href=&quot;http://www.eff.org/&quot;&gt;Electronic Frontier Foundation&lt;/a&gt; (EFF) is working to help governments understand that DRM doesn&#39;t work, is anti-competitive and completely incompatible with open source software. I walked out of the talk, walked downstairs to the EFF table and made a donation. If you care about your digital rights and open source software (and bloggers rights) I urge you to do the same. &lt;a href=&quot;http://www.eff.org/support/&quot;&gt;Support the EFF&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Here&#39;s Cory delivering his keynote:&lt;br /&gt;&lt;img src=&quot;http://rollerweblogger.org/resources/roller/cory-doctorow-apachecon2005.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;Here&#39;s the Inside Apache panel, which followed Cory&#39;s talk, led by ASF chairman Greg Stein:&lt;br /&gt;&lt;img src=&quot;http://rollerweblogger.org/resources/roller/inside-asf-apachecon2005.jpg&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;&lt;br /&gt;After the opening session, I went to Simon Phipps&#39; talk on The Zen of Free: Deriving a General Model For Open Source, which was excellent as I expected, and Jim Driscol&#39;s talk on Open Source for Business and Profit. Jim&#39;s case studies on Ant, Tomcat and WatchDog were my favorite part of the talk.&lt;br /&gt;&lt;br /&gt;After lunch it was time for my session. I felt inadequate after a morning of listening to the pros and in the end I wasn&#39;t all that happy with my performance. I think the content and my slides were good, but that was the only goodness. Due to my cold (and sudafed), my mouth was dry. I was worried about running over like I did at JavaOne, so I think I rushed a bit and I finished 20 minutes early! I&#39;m not sure what the audience thought, so if you attended I&#39;d love to hear your impression of the talk. Pleaese be honest, I can take it.&lt;br /&gt;&lt;br /&gt;I&#39;ve posted my slides here on my site. The talk is an overview of Roller including features/benefits, limitations and architecture. It&#39;s intended as a primer for new users and developers:&lt;br /&gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Roller: An Open Source Blogging Platform (&lt;a href=&quot;http://rollerweblogger.org/downloads/presentations/ApacheCon2005-M022-Roller.sxi&quot;&gt;Open Office format&lt;/a&gt; | &lt;a href=&quot;http://rollerweblogger.org/downloads/presentations/ApacheCon2005-M022-Roller.pdf&quot;&gt;PDF format&lt;/a&gt;)&lt;br /&gt;&lt;br /&gt;That&#39;s all for now. &lt;br /&gt;
+         </description>
+    <category>Roller</category>
+    <link>http://rollerweblogger.org/page/roller?entry=apachecon_monday</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=apachecon_monday</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=apachecon_monday</comments>
+        <pubDate>Mon, 12 Dec 2005 20:48:05 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>Finishing the book</title>
+        <description>                             &lt;p /&gt;
+Quick status report on &lt;a href=&quot;http://manning.com/dmjohnson&quot;&gt;RSS and Atom in Action&lt;/a&gt;. We&#39;ve decided we can&#39;t wait any longer for the Atom Publishing Protocol. I just promised to finish Atom chapter by January first. The plan is to cover the portions of Atom that are stable, the latest on collections and introspection and then provide updated examples once the APP is finalized. Good thing is, since most the blog client examples in part II use my BlogClient interfaces, they&#39;re agnostic about Atom vs. MetaWeblog API.
+         </description>
+    <category>Blogging</category>
+    <link>http://rollerweblogger.org/page/roller?entry=finishing_book</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=finishing_book</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=finishing_book</comments>
+        <pubDate>Sun, 11 Dec 2005 14:07:21 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+    <item>
+    <title>ApacheCon arrival</title>
+        <description>                             &lt;p&gt;I arrived at &lt;a href=&quot;http://apachecon.com&quot;&gt;ApacheCon&lt;/a&gt; yesterday (Saturday) on a beautiful San Diego day, clear skies mild weather. I took a couple of pictures and posted them on &lt;a href=&quot;http://www.flickr.com/photos/63011397@N00/&quot;&gt;Flickr&lt;/a&gt; for kids back home. Of course, the sunshine didn&#39;t stop me from marching right down to the basement for the hackathon, where I met &lt;a href=&quot;http://blog.generationjava.com/roller/page/bayard&quot;&gt;Henri Yandell&lt;/a&gt; for the first time and ran into most of the same characters I&#39;d encountered at last years&#39;s hackaton. I didn&#39;t stay late last night because I picked up a cold. Instead, I decided to sleep (for 10 hours!). After coffee, advil, sudafed and a long walk down the cruise ship docks this morning, I&#39;m back and feeling much better. 
+
+&lt;p&gt;Despite the beer, pizza, comfy couches and dinners that keep on rolling into the room, the hackathon is not just a social event. People have work to do and seem to be able to go heads-down and focus on getting things done.  For example, today I&#39;m sitting at the Geronimo table with Bruce Synder, David Jencks and others, where they&#39;re working to finish the &lt;a href=&quot;http://geronimo.apache.org/&quot;&gt;Geronimo&lt;/a&gt; 1.0 release before the actual conference begins. I&#39;ve got a little work to do today as well. My goal for the day is prepare the first &lt;a href=&quot;http://blogapps.dev.java.net&quot;&gt;Blogapps&lt;/a&gt; release, get ready for my talk tomorrow and help out with the extra beer problem. More later...&lt;/p&gt;
+
+
+&lt;p&gt;
+Tags: 
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/ApacheCon&quot;&gt;ApacheCon&lt;/a&gt;,
+&lt;a rel=&quot;tag&quot; href=&quot;http://www.technorati.com/tag/ApacheCon2005&quot;&gt;ApacheCon2005&lt;/a&gt;
+&lt;/p&gt;
+
+         </description>
+    <category>Java</category>
+    <link>http://rollerweblogger.org/page/roller?entry=apachecon_arrival</link>
+    <guid isPermaLink="true">http://rollerweblogger.org/page/roller?entry=apachecon_arrival</guid>
+        <comments>http://rollerweblogger.org/page/roller?anchor=apachecon_arrival</comments>
+        <pubDate>Sun, 11 Dec 2005 13:56:16 -0500</pubDate>
+    <dc:creator>David M Johnson</dc:creator>
+          </item>
+  </channel>
+</rss>

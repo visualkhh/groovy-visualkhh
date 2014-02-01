@@ -1,0 +1,28 @@
+transient MetaClass metaClass;
+
+public MetaClass getMetaClass() {
+    MetaClass metaclass1;
+    if(ScriptBytecodeAdapter.compareEqual(metaClass, null)) {
+        metaclass1 = (MetaClass)ScriptBytecodeAdapter.asType(ScriptBytecodeAdapter.invokeStaticMethod("org.codehaus.groovy.runtime.ScriptBytecodeAdapter", "getMetaClass", this), groovy.lang.MetaClass.class);
+        MetaClass metaclass;
+        MetaClass _tmp = metaclass1;
+        metaclass = (MetaClass)ScriptBytecodeAdapter.asType(metaclass1, groovy.lang.MetaClass.class);
+        metaClass = metaclass;
+    }
+    return (MetaClass)ScriptBytecodeAdapter.asType(metaClass, groovy.lang.MetaClass.class);
+}
+
+public Object invokeMethod(String s, Object obj) {
+    MetaClass metaclass1;
+    if(ScriptBytecodeAdapter.compareEqual(metaClass, null)) {
+        metaclass1 = (MetaClass)ScriptBytecodeAdapter.asType(ScriptBytecodeAdapter.invokeStaticMethod("org.codehaus.groovy.runtime.ScriptBytecodeAdapter", "getMetaClass", this), groovy.lang.MetaClass.class);
+        MetaClass metaclass;
+        MetaClass _tmp = metaclass1;
+        metaclass = (MetaClass)ScriptBytecodeAdapter.asType(metaclass1, groovy.lang.MetaClass.class);
+        metaClass = metaclass;
+    }
+    Object aobj[] = {
+        this, s, obj
+    };
+    return ScriptBytecodeAdapter.invokeMethod(metaClass, "invokeMethod", ((Object) (aobj)));
+}

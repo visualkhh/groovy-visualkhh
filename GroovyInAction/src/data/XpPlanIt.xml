@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<release>
+    <iteration capacity="0" id="Ideas" title="">
+        <task pointsDone="0" pointsLeft="2" developer="Mittie"
+            title="Auto-CVS" xml:space="preserve">we could trigger an automatic commit on changed project files into a CVS repository
+
+this would make for backup and for historic data
+
+ah, we could trigger a customizable script that we pass the filename to...
+
+future ideas:
+- have a list of retrievable states (cvs tags/dates) in a menu, load it on request</task>
+        <task pointsDone="0" pointsLeft="1" developer="No one assigned"
+            title="Allow use of custom XSL." xml:space="preserve">Need to deal with the issue of publishing our xml format. At this point we would be stuck with a format till the next release.</task>
+        <task pointsDone="0" pointsLeft="1" developer="No one assigned"
+            title="Spill the beer" xml:space="preserve">change the refresh icon in case of concurrent change
+maybe to rotated icon where the beer is spilled</task>
+        <task pointsDone="0" pointsLeft="1" developer="No one assigned"
+            title="Highlight other cards" xml:space="preserve">like Highlight My Tasks
+
+possible criteria:
+- other cards of the develper of &quot;this&quot; task
+- my open Tasks
+- all open tasks
+- &quot;Group&quot; rsp. &quot;Story&quot;
+- restrict to the currently selected iteration???
+
+only one markup / criteria at a time?
+keep while proceeding </task>
+        <task pointsDone="0" pointsLeft="4" developer="Graham"
+            title="GroupTasksIntoStories" xml:space="preserve">Task -&gt; goto Story  
+Story -&gt; show Tasks -&gt; goto Task  
+Story.newTask    
+Task.change(DONE|LEFT) =&gt; Story.change(DONE|LEFT)    
+
+Story.move =&gt; move (open) Tasks ?  
+TasksIteration.overload =&gt; StoryIteration.overload   
+Task.move =&gt; Story.setEndDate ??  
+(alternative: Tasks can not go out of StoryIteration) 
+
+----
+
+Short solution: make a free text field for each task that contains a story name.
+Leave interpretation of this information up to the user.
+
+This would be only 1 Point to implement.</task>
+    </iteration>
+    <iteration capacity="5" id="Iron out" title="">
+        <task pointsDone="0" pointsLeft="1" developer="No one assigned"
+            title="set back to no user" xml:space="preserve">
+There is no &quot;no one&quot; user you can set a task back to, as soon as you have assigned the task once.
+There seems to be an &quot;&quot; user, but this is not &quot;no one&quot;
+
+</task>
+    </iteration>
+    <iteration capacity="0" id="Feature Requests" title="">
+        <task pointsDone="0" pointsLeft="1" developer="No one assigned"
+            title="file.exit menu entry [Etienne]" xml:space="preserve">Exit menu item under &quot;file&quot;. 
+&quot;Do you want to safe&quot; dialog.
+
+Confirmation Alert after &quot;Safe&quot; showing OK/NOK. DONE</task>
+        <task pointsDone="0" pointsLeft="1" developer="No one assigned"
+            title="cursor move on new task [Etienne]" xml:space="preserve">cursor should go to detailspane.title field</task>
+        <task pointsDone="0" pointsLeft="2" developer=""
+            title="user preferences [Martin H]" xml:space="preserve">
+per project: store iteration hide status
+
+store in properties file?</task>
+        <task pointsDone="0" pointsLeft="1" developer="No one assigned"
+            title="make iteration pane variable in width [Etienne]" xml:space="preserve">request by etienne
+evey iteration pane may have different width
+no need to store width</task>
+        <task pointsDone="0" pointsLeft="1" developer="No one assigned"
+            title="insert new task below selected one [Etienne]" xml:space="preserve">not at the bottom</task>
+        <task pointsDone="0" pointsLeft="1" developer="No one assigned"
+            title="half points [Elisabeth]" xml:space="preserve">make points
+not sure about use...
+
+problem: planungsverschnitt</task>
+    </iteration>
+    <iteration capacity="10" description=""
+        id="9.4.-27.4. (3 Weeks)" title="">
+        <task pointsDone="2" pointsLeft="0" developer="Mittie"
+            title="Help" xml:space="preserve">Make HTML help 
+connect Controls with URL maybe even wiki for interactive/community help?
+
+19.3.01 wiki set up</task>
+        <task pointsDone="2" pointsLeft="0" developer="Mittie"
+            title="ToolBar Buttons" xml:space="preserve">replace Buttons by ToolbarButtons
+
+The &quot;Refresh&quot; has some problems, that are not yet captured in a test case
+
+- concurrent model changes, e.g. the current task was deleted
+</task>
+        <task pointsDone="1" pointsLeft="0" developer="Mittie"
+            title="IterationManagement I" xml:space="preserve">rename Iteration  
+
+dk: to me this seems to be more important than the other stuff... so I split it up, see IterationManagement II</task>
+        <task pointsDone="3" pointsLeft="0" developer="Mittie"
+            title="Concurrent Changes" xml:space="preserve">Problem: current Task is deleted or moved by an other user concurrently.
+
+- give indication of changes by other users in the StatusBar
+- protect against changes of Tasks, that are concurrently (re)moved
+- handle refresh correctly</task>
+        <task pointsDone="1" pointsLeft="0" developer="Mittie"
+            title="Enabling/Validating" xml:space="preserve">disable Drop of current iteration
+
+validate number fields</task>
+        <task pointsDone="1" pointsLeft="0" developer="Graham"
+            title="Create Info Page on Kinetic Site" xml:space="preserve">This will be a registration page with email and project name.
+
+done on the xpplanit.com site.</task>
+    </iteration>
+    <iteration capacity="13" description=""
+        id="30.4.-18.5 (3 Weeks)" title="">
+        <task pointsDone="3" pointsLeft="0" developer="Mittie"
+            title="User Management/Login" xml:space="preserve">Have more than one release per user
+give the user a list of his releases in the login shell after he has entered his email address
+
+new user function through web interface
+
+data:
+- nickname
+- email
+- password
+- releases
+
+Developer Choice in TaskPane needs to be filled with registered users for this project.
+
+----
+DONE. Was a little harder than expected.
+Needed to go away from FormModel for this special purpose</task>
+        <task pointsDone="1" pointsLeft="0" developer="Mittie"
+            title="Insert/Delete Iteration" xml:space="preserve">insert new Iteration before/after current
+-DONE 0.5
+delete Iteration 
+-DONE 2 hours (functionality goes to context menu)
+check against concurrent changes and proper refresh behavior
+
+No TestCase yet :-(
+I need some help on this...
+</task>
+        <task pointsDone="1" pointsLeft="0" developer="Mittie"
+            title="Show Users" xml:space="preserve">show other logged on users
+
+easiest Solution via Alert
+
+DONE
+was fairly quick (half an hour)
+</task>
+        <task pointsDone="1" pointsLeft="0" developer="Mittie"
+            title="Auto-apply changes" xml:space="preserve">after changes to a task that may be gone after selection changes, these changes are lost
+as the user if he wants to save the changes?
+
+1. idea: 
+before command execution or selection, test whether the ApplyCanges Button in enabled.
+if so, 
+	ask
+	if yes	
+		TaskForm.saveInput()
+
+-&gt; There seems to be trouble with the selection handling that interferes with the Task Data change. Dropped this idea...
+[I just had a talk with Rolf that I should have used the IHasChangedListener on the TaskForm to set the dirty-flag]
+
+alternatively
+FORM_NOTIFATION_IMMEDIATE on TaskForm
+
+-&gt; Implementation was fairly easy and straightforward. 
+Additional benefits:
+- UI shows more immediate response on data changes in the iteration panes
+- less Buttons and Controllers
+concern:
+Performance with slow bandwith and http
+
+DONE
+as you see, there is no apply Button anymore....
+
+</task>
+        <task pointsDone="1" pointsLeft="0" developer="Mittie"
+            title="Highlight My Tasks" xml:space="preserve">color the tasks where the developer equals the logged in user
+
+done and deployed
+
+highlighting survives refreshes
+&quot;new iterations&quot; do not inherit the highlighting</task>
+        <task pointsDone="2" pointsLeft="0" developer="Mittie"
+            title="Web Application for Registration" xml:space="preserve">Need to create a registration page that we can use for the login screen. 
+
+last ideas: do everything in a servlet, no mail.
+
+deployed, working</task>
+        <task pointsDone="1" pointsLeft="0" developer="Mittie"
+            title="Beautify User Interface" xml:space="preserve">draw some borders
+Completion progressbar on task
+completion progressbar on iterations
+
+Labels on iterations: better names? capacity - load ?
+Progressbar for Load? needs to change color to red on &gt; 100% to indicate overload.</task>
+        <task pointsDone="1" pointsLeft="0" developer="Mittie"
+            title="Journal" xml:space="preserve">Table of recent activities
+Date/Time	Username	Command		UserEmail
+Things to put in:
+- all Commands DONE
+- all TaskData changes (not a command yet) DONE
+- all Iteration Estimation changes (not a command yet) DONE
+- login/logout? DONE
+- &quot;save&quot; DONE
+- &quot;selection&quot; is not to be put in OK
+- &quot;print&quot; is not put in OK
+
+The Journal is to be shown per Project.
+The above table could be made sortable when needed. DONE
+The first implementation would have no persistency. YEP
+Login appears twice, although I don&apos;t know why... FIXED</task>
+        <task pointsDone="2" pointsLeft="0" developer="Graham"
+            title="Add Printing support" xml:space="preserve">Use XML to PDF to create a report which can be downloaded/displayed to the user.
+Initially the full release.
+
+4 hrs 
+Initial version working which lists the iterations within the release. Adding the Tasks information now.
+
+2 hrs
+Creation and loading of a test pdf file
+
+4 hrs
+Added everything to the main project. including tests
+
+</task>
+    </iteration>
+    <iteration capacity="6" description=""
+        id="28.5.-29.6. (6 Weeks)" title="">
+        <task pointsDone="1" pointsLeft="0" developer="Graham"
+            title="Accelerators" xml:space="preserve">support for all Menues except context menu
+
+Done in 15 min</task>
+        <task pointsDone="3" pointsLeft="0" developer="Graham"
+            title="Printing Reports and Cards" xml:space="preserve">Need to do html and also format pdf to be card (a6) format
+Seems that all I need to do here is to define the master page layout to be A6 size
+and then just format everything within the page as a table, wrapping onto the next page 
+should be automatic.
+
+Worked out now how to create different page layouts so that we can have overview and then the tasks listed 2 per page.
+
+started by graham, finished by Mittie
+</task>
+        <task pointsDone="2" pointsLeft="0" developer="Mittie"
+            title="Show / Hide Iterations I" xml:space="preserve">own menu with all iterations an possibility to toggle the visibility
+
+on login: unhide all
+
+still to do: react on iteration rename/add/delete and refresh with concurrent changes
+</task>
+    </iteration>
+    <iteration capacity="0" id="open end" title="">
+        <task pointsDone="1" pointsLeft="0" developer="No one assigned"
+            title="Scrollable Box" xml:space="preserve">Switch to the final realease R 4.0 of ULC. The contained ULCBox is scrollable, a feature that we can use for the &quot;overview&quot;. -dk</task>
+        <task pointsDone="1" pointsLeft="0" developer="Mittie"
+            title="change Username/password" xml:space="preserve">dialog under &quot;Users&quot;</task>
+        <task pointsDone="1" pointsLeft="0" developer="Mittie"
+            title="Show / Hide Iterations II" xml:space="preserve">minimize/maximize IterationPane via Button
+this would also solve the update issue on add/remove iterations</task>
+        <task pointsDone="1" pointsLeft="2" developer="No one assigned"
+            title="Reload while running" xml:space="preserve">whenever there&apos;s a problem with a project, we must be able to reload the latest data without restarting the server (that would break everybody else&apos;s session)
+
+- force all other users to disconnect (maybe send alert first)
+- delete from ReleaseStorage
+
+I&apos;m not confident putting this together before having some more multi-user tests.
+
+First version is to plainly restore the Release state and terminate().
+Not nice but usable.</task>
+    </iteration>
+</release>

@@ -1,0 +1,7 @@
+Default,Sat Jul 02 14:58:39 CEST 2005
+class,CLOC,LOC,OCavg,OCmax,OSmax,SLOC,STAT,WMC
+"GPathReplacement",1,84,3.00,4,38,84,72,12
+"Invoice",0,16,1.00,1,1,16,4,4
+"LineItem",0,19,1.00,1,1,19,5,5
+"Product",0,16,1.00,1,1,16,4,4
+
