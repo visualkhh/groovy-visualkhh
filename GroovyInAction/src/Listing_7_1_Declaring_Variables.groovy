@@ -1,12 +1,12 @@
 class SomeClass {
     
     public    fieldWithModifier
-    String    typedField
+    static    classField
     def       untypedField
     protected field1, field2, field3
+    String    typedField
     private   assignedField = new Date()
     
-    static    classField
     
     public static final String CONSTA = 'a', CONSTB = 'b'
     
@@ -15,7 +15,15 @@ class SomeClass {
         int localTypedMethodVar = 1
         def localVarWithoutAssignment, andAnotherOne        
     }
+	
 }
+
+def somclass = new SomeClass();
+somclass.setUntypedField ('1');
+SomeClass.classField ='f';
+somclass.fieldWithModifier='ff';
+
+
 
 def localvar = 1           //|#1
 boundvar1 = 1              //|#1

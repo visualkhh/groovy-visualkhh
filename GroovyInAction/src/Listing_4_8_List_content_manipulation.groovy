@@ -3,8 +3,10 @@ assert [1,[2,3]].flatten() == [1,2,3]
 
                                               
 assert [1,2,3].intersect([4,3,1])== [3,1]   
-assert [1,2,3].disjoint([4,5,6])            
+assert [1,2,3].disjoint([4,5,6]);            
 
+def ab = [1,2,3].disjoint([1,4,5,6]) ;
+println ab;
                                               
 list = [1,2,3]                              
 popped = list.pop()                         //#1
