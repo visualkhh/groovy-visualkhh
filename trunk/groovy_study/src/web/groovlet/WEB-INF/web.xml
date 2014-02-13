@@ -1,0 +1,21 @@
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+    "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd" >
+
+<web-app>
+    <display-name>Groovlet Demonstrator</display-name>
+    <description>
+        Showing the use of Groovlets for Groovy in Action
+    </description>
+
+    <servlet>
+        <servlet-name>Groovy</servlet-name>
+        <servlet-class>groovy.servlet.GroovyServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Groovy</servlet-name>
+        <url-pattern>*</url-pattern>
+    </servlet-mapping>
+
+</web-app>
