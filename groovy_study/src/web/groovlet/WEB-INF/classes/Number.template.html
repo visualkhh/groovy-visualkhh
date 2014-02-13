@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Think of a Number</title>
+  </head>
+  <body>
+    <h1>Think of a Number</h1>
+    Your guess $guess is <%
+        switch (guess) {
+            case {it == goal}: out << 'correct!'; break
+            case {it < goal} : out << 'too low' ; break
+            case {it > goal} : out << 'too high'; break
+        }
+    %>
+    <p>What&quot;s your guess (0..100)?</p>
+    <form action='Templater.groovy' method='GET'>
+      <input type='text' name='guess'>
+      <button>Guess</button>
+      <button name='restart' value='true'>New Game</button>
+    </form>
+  </body>
+</html>
