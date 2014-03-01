@@ -1,0 +1,29 @@
+그레일즈 1차 
+Grails는 Groovy에 "약속에 의한 코딩(coding by convention)" 패러다임을 적용한 것이다. Grails는 Groovy 언어와 자바 웹 개발을 활용하는 오픈소스 웹 애플리케이션 프레임워크이다. Grails는 아파치 2.0 소프트웨어 라이센스를 따른다.
+
+Grails 에는 Groovy 가 포함 되어 있다. ( 2.3.5 버전 기준 /grails-2.3.5/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-2.1.9.jar)
+데이터베이스 포함
+웹 서버 포함
+J2EE용 애플리케이션을 WAR 파일로 만들수 있다.
+Hibernate 사용하기 때문에 데이터베이스는 아무거나 사용 가능하다.
+
+
+Grails는 스트럿츠, Spring, Ruby on Rails와 마찬가지로 웹어플리케이션을 MVC 기반으로 개발 가능하도록 지원해준다.
+Model - Hivernate라는 ORM 프레임워크를 통하여 모텔클래스를 DB 엔티티와 매핑하도록 지원
+Controlller - XXXConroller.groovy 지원
+View - JAVA의 jsp와 유사한 .gsp 지원
+
+
+
+Application 생성
+	grails create-app helloworld (엡크레이트)
+	grails (콘솔실행)
+		create-controller hello(컨트롤러 생성)
+		소스 수정
+		run-app(실행 서버),  -Dserver.port=9090 run-app   포트 지정가능
+		stop-app(중지 서버)
+		
+샘플소스받아서 실행
+	grailsw run-app
+	
+	
