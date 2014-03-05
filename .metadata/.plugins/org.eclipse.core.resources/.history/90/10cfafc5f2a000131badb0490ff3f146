@@ -1,0 +1,7 @@
+package projecttracker
+
+class Task {
+
+    static constraints = {
+    }
+}

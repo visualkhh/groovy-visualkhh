@@ -1,0 +1,19 @@
+package projecttracker
+
+class ListProjectsController {
+
+      def index = {
+        redirect (action: current)
+    }
+ 
+    def current = {
+        def projectName = "Project Tracker Video Tutorials"
+        def dueDate = "20140201"
+        [project:projectName, date:dueDate]
+    }
+ 
+    def overdue = {
+        render "Order Valentines Day Package"
+    }
+	
+}

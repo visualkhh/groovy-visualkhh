@@ -1,0 +1,11 @@
+package projecttracker
+
+class ListProject {
+	String name;
+	String description;
+	Date dudate;
+	
+	
+    static constraints = {
+    }
+}

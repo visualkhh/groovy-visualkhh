@@ -1,0 +1,20 @@
+package projecttracker
+
+class ListProjectsController {
+
+    def index() { 
+		render "index¿‘¥œ¥Ÿ.";
+	}
+	
+	def index() {
+		render "aaa";
+	}
+	
+	def index() {
+		render "aaa";
+	}
+	
+	def index() {
+		render "aaa";
+	}
+}

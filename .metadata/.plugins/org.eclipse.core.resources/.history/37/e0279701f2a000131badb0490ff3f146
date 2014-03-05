@@ -1,0 +1,10 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
+<html>
+<head>
+  <title>Current Projects</title>
+</head>
+<body>
+    ${allProjects}
+</body>
+</html>
